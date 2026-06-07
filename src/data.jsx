@@ -130,7 +130,7 @@ export const resume = [
     category: 'experience',
     icon: <FaBriefcase />,
     year: '2025 - Atual',
-    title: 'Analista de sistemas</span>',
+    title: 'Analista de sistemas',
     desc: 'CRP Tecnologia - Prodam-SP',
   },
   {
@@ -138,7 +138,7 @@ export const resume = [
     category: 'experience',
     icon: <FaBriefcase />,
     year: '2023 - 2025',
-    title: 'Desenvolvedor FullStack </span>',
+    title: 'Desenvolvedor FullStack',
     desc: 'Geclin - Sistema de Gestão para Clínicas e Consultórios',
   },
 
@@ -147,7 +147,7 @@ export const resume = [
     category: 'experience',
     icon: <FaBriefcase />,
     year: '2022 - 2025',
-    title: 'Desenvolvedor FullStack</span>',
+    title: 'Desenvolvedor FullStack',
     desc: 'Secretaria de Estado da Fazenda de SC',
   },
 
@@ -156,7 +156,7 @@ export const resume = [
     category: 'experience',
     icon: <FaBriefcase />,
     year: '2021 - 2022',
-    title: 'Estagiário Fullstack </span>',
+    title: 'Estagiário Fullstack',
     desc: 'Pekus Consultoria e Desenvolvimento',
   },
 
@@ -165,7 +165,7 @@ export const resume = [
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2019 - 2020',
-    title: 'Escola SENAI de informática </span>',
+    title: 'Escola SENAI de informática',
     desc: 'Técnico, Desenvolvimento de sistemas',
   },
 
@@ -174,7 +174,7 @@ export const resume = [
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2015 - 2016',
-    title: 'Uninove </span>',
+    title: 'Uninove',
     desc: 'Tecnologia em Comércio Exterior',
   },
 ];
