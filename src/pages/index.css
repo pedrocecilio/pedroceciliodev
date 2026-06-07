@@ -1,0 +1,301 @@
+@media screen and (max-width: 1400px) {
+    .container {
+        max-width: 1008px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .grid {
+        gap: 20px !important;
+    }
+
+    .home__data {
+        padding-right: 40px !important;
+    }
+
+    .home__title {
+        font-size: var(--big-font-size) !important;
+    }
+
+
+    .home__description {
+        font-size: var(--small-font-size) !important;
+    }
+
+    .stats__title {
+        padding-left: 35px !important;
+    }
+
+    .stats__title::before {
+        width: 22px !important;
+    }
+
+    .skills__container {
+        row-gap: 32px !important;
+        padding: 50px !important;
+    }
+
+    .progress__circle {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .skills__title {
+        margin-top: 20px !important;
+    }
+
+    .resume__icon {
+        width: 36px !important;
+        height: 36px !important;
+        line-height: 38px !important;
+    }
+
+    .resume__item {
+        padding-left: 55px !important;
+    }
+
+    .portifolio__modal-content {
+        max-width: 600px !important;
+    }
+
+    .modal__close {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+
+    .form__input-group {
+        grid-template-columns: repeat(2, 1fr) !important;
+        column-gap: 24px !important;
+    }
+
+    .form__input-group .form__input-div:last-child {
+        grid-column: 1/-1 !important;
+    }
+
+    .form__input-div {
+        margin-bottom: 24px !important;
+    }
+}
+
+@media screen and(max-widht:1024px) {
+    .container {
+        max-width: 720px !important;
+    }
+
+    .home {
+        padding: 20px !important;
+        grid-template-columns: 5fr 7fr !important;
+    }
+
+    .home__data {
+        padding-right: 0 !important;
+    }
+
+    .section {
+        padding-block: 50px !important;
+    }
+
+    .section__title {
+        margin-bottom: 40px !important;
+    }
+
+    .about__container,
+    .resume__container,
+    .contato__container {
+        grid-template-columns: 1fr !important;
+    }
+
+    .about__container {
+        row-gap: 40px !important;
+    }
+
+    .sbtitle__center {
+        margin-bottom: 45px !important;
+    }
+
+    .skills__container {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+
+    .resume__container {
+        row-gap: 45px !important;
+    }
+
+    .resume__item:not(:last-child) {
+        margin-bottom: 45px !important;
+    }
+
+    .separator {
+        margin: 65px auto 50px !important;
+    }
+
+    .portifolio__container {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .contato__container {
+        row-gap: 48px !important;
+    }
+}
+
+@media screen and(max-width: 768px) {
+    .home {
+        grid-template-columns: 1fr !important;
+        justify-items: center !important;
+        row-gap: 10px !important;
+    }
+
+    .color__block {
+        display: none !important;
+    }
+
+    .home__img {
+        width: 300px !important;
+        height: 300px !important;
+        border-radius: 50% !important;
+        margin-top: auto !important;
+    }
+
+    .home__content {
+        max-width: 500px !important;
+        text-align: center !important;
+        margin-bottom: auto !important;
+    }
+
+    .home__title {
+        padding-left: 0 !important;
+    }
+
+    .home__title::before {
+        all: unset !important;
+    }
+
+    .home__title span {
+        display: block !important;
+    }
+
+    /* ================ Fim -Home ============ */
+    /* ================ inicio - sobre ============ */
+
+    .container__ {
+        max-width: 540px !important;
+    }
+
+    /* ================ fim - sobre ============ */
+    /* ================ inicio - porti ============ */
+
+    .portifolio__modal-content {
+        padding: 25px 20px !important;
+    }
+
+    .modal__close {
+        top: -9% !important;
+        right: 0 !important;
+    }
+
+}
+
+
+@media screen and(max-width: 576px) {
+
+    /* ================ inicio - App.CSS ============ */
+    .nav__toggler {
+        top: 20px !important;
+        right: 15px !important;
+    }
+
+    .nax__link {
+        column-gap: 20px !important;
+    }
+
+    .nav__icon,
+    .nav__name {
+        font-size: var(--h3-font-size) !important;
+    }
+
+    .theme__img {
+        width: 25px !important;
+    }
+
+    .style__switcher-toggle,
+    .theme__toggle {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .style__switcher-toggle {
+        top: 15% !important;
+    }
+
+    .theme__toggle {
+        bottom: 15% !important;
+    }
+
+    .style__switcher-close {
+        top: 5% !important;
+    }
+
+    /* ================ inicio - SObre ============ */
+
+    .skills__container {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    /* ================ inicio - port ============ */
+
+    .portifolio__container {
+        grid-template-columns: 1fr !important;
+    }
+
+    .modal__list {
+        grid-template-columns: 1fr !important;
+    }
+
+    .modal__img {
+        height: 300px !important;
+    }
+
+    /* ================ inicio - contato ============ */
+
+    .form__input-group {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media screen and(max-width:450px) {
+    .info__title {
+        display: block !important;
+    }
+
+    .stats__box {
+        padding: 15px 15px 25px 20px !important;
+    }
+}
+
+@media screen and(max-width:350px) {
+    .home__img {
+        display: none !important;
+    }
+
+    .home__content {
+        margin-block: auto !important;
+        text-align: left !important;
+    }
+
+    .home__title {
+        font-size: var(--h1-font-size) !important;
+    }
+
+    .home__description {
+        text-align: justify !important;
+    }
+
+    .home__title span {
+        display: inline !important;
+    }
+
+    .stats {
+        grid-template-columns: 1fr !important;
+    }
+}

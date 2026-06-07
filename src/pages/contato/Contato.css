@@ -1,0 +1,150 @@
+.contact__subtitle {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px;
+    line-height: 1.8;
+}
+
+.contato__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.contact__card {
+    background-color: var(--container-color);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    padding: 35px;
+    transition: .3s;
+}
+
+.contact__card:hover {
+    transform: translateY(-8px);
+    border-color: var(--first-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .3);
+}
+
+.card__icon {
+    color: var(--first-color);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.card__title {
+    font-size: var(--h3-font-size);
+    margin-bottom: 20px;
+}
+
+.card__description {
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.contact__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.contact__icon {
+    color: var(--first-color);
+    font-size: 1.5rem;
+}
+
+.contact__link {
+    display: block;
+    margin-top: 5px;
+    color: var(--title-color);
+}
+
+.contato__socials {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contato__social-link {
+    background-color: var(--body-color);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    font-size: 1.3rem;
+}
+
+.contato__social-link:hover {
+    background-color: var(--first-color);
+    color: var(--text-white);
+    transform: translateY(-3px);
+}
+
+.contact__button {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    background-color: var(--container-color);
+    border: 1px solid var(--border-color);
+    transition: .3s;
+}
+
+.contact__button:hover {
+    background-color: var(--first-color);
+    color: var(--text-white);
+    transform: translateY(-2px);
+}
+
+.copy__email {
+    background: none;
+    border: none;
+    color: var(--title-color);
+    cursor: pointer;
+    font-size: var(--small-font-size);
+    transition: .3s;
+}
+
+.copy__email:hover {
+    color: var(--first-color);
+}
+
+.copied__message {
+    display: block;
+    margin-top: 6px;
+    color: #4caf50;
+    font-size: 12px;
+}
+
+.contact__whatsapp {
+    color: var(--title-color);
+    transition: .3s;
+    font-weight: 500;
+}
+
+.contact__whatsapp:hover {
+    color: var(--first-color);
+}
+
+.contact__subtitle {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px;
+    line-height: 1.8;
+
+    animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

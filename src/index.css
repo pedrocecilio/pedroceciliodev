@@ -1,0 +1,320 @@
+@media screen and (max-width: 1400px) {
+    .container {
+        max-width: 1008px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .grid {
+        gap: 20px !important;
+    }
+
+    .home__data {
+        padding-right: 40px !important;
+    }
+
+    .home__title {
+        font-size: var(--big-font-size) !important;
+    }
+
+
+    .home__description {
+        font-size: var(--small-font-size) !important;
+    }
+
+    .stats__title {
+        padding-left: 35px !important;
+    }
+
+    .stats__title::before {
+        width: 22px !important;
+    }
+
+    .skills__container {
+        row-gap: 32px !important;
+        padding: 50px !important;
+    }
+
+    .progress__circle {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .skills__title {
+        margin-top: 20px !important;
+    }
+
+    .resume__icon {
+        width: 36px !important;
+        height: 36px !important;
+        line-height: 38px !important;
+    }
+
+    .resume__item {
+        padding-left: 55px !important;
+    }
+
+    .portifolio__modal-content {
+        max-width: 600px !important;
+    }
+
+    .modal__close {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+
+    .form__input-group {
+        grid-template-columns: repeat(2, 1fr) !important;
+        column-gap: 24px !important;
+    }
+
+    .form__input-group .form__input-div:last-child {
+        grid-column: 1/-1 !important;
+    }
+
+    .form__input-div {
+        margin-bottom: 24px !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .teste__pedro {
+        background-color: palevioletred;
+    }
+
+    .container {
+        max-width: 720px !important;
+    }
+
+    .home {
+        padding: 60px;
+        grid-template-columns: 1fr !important;
+        justify-items: center !important;
+        row-gap: 10px !important;
+    }
+
+    .home__img {
+        width: 500px;
+        height: 500px !important;
+    }
+
+    .home__data {
+        padding-right: 0 !important;
+    }
+
+    .color__block {
+        display: none;
+    }
+
+    .section {
+        padding-block: 50px !important;
+    }
+
+    .section__title {
+        margin-bottom: 40px !important;
+    }
+
+    .about__container,
+    .resume__container,
+    .contato__container {
+        grid-template-columns: 1fr !important;
+    }
+
+    .about__container {
+        row-gap: 40px !important;
+    }
+
+    .subtitle__center {
+        margin-bottom: 45px !important;
+    }
+
+    .skills__container {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+
+    .resume__container {
+        row-gap: 45px !important;
+    }
+
+    .resume__item:not(:last-child) {
+        margin-bottom: 45px !important;
+    }
+
+    .separator {
+        margin: 65px auto 50px !important;
+    }
+
+    /* ============Portifolio================== */
+
+    .portifolio__container {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .contato__container {
+        row-gap: 48px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .teste__pedro {
+        background-color: blue;
+    }
+
+    .home {
+        grid-template-columns: 1fr !important;
+        justify-items: center !important;
+        row-gap: 10px !important;
+    }
+
+    .home__img {
+        width: 300px;
+        height: 300px !important;
+        border-radius: 40%;
+        margin-top: auto;
+    }
+
+    .home__content {
+        max-width: 500px;
+        text-align: center;
+        margin-bottom: auto;
+    }
+
+    .home__title {
+        padding-left: 0 !important;
+    }
+
+    .home__title::before {
+        all: unset !important;
+    }
+
+    .home__title span {
+        display: block;
+    }
+
+    /* ================ Sobre ============ */
+
+    .container {
+        max-width: 540px !important;
+    }
+
+    /* ================ Portifolio ============ */
+
+    .portifolio__modal-content {
+        padding: 25px 20px !important;
+    }
+
+    .modal__close {
+        top: -9% !important;
+        right: 0 !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    /* ================ inicio - App.CSS ============ */
+
+    .nav__toggle {
+        top: 20px !important;
+        right: 15px !important;
+    }
+
+    .nav__link {
+        column-gap: 20px !important;
+    }
+
+    .nav__icon,
+    .nav__name {
+        font-size: var(--h3-font-size) !important;
+    }
+
+    .theme__img {
+        width: 20px !important;
+    }
+
+    .style__switcher-toggler,
+    .theme__toggler {
+        width: 35px !important;
+        height: 35px !important;
+    }
+
+    .style__switcher-toggler {
+        top: 15% !important;
+    }
+
+    .theme__toggler {
+        bottom: 15% !important;
+    }
+
+    .style__switcher-close {
+        top: 5% !important;
+    }
+
+    /* ================ SOBRE ============ */
+
+    .container {
+        max-width: 450px !important;
+    }
+
+    .skills__container {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    /* ================ Portifolio ============ */
+
+    .portifolio__container {
+        grid-template-columns: 1fr !important;
+    }
+
+    .modal__list {
+        grid-template-columns: 1fr !important;
+    }
+
+    .modal__img {
+        height: 300px !important;
+
+    }
+
+    /* ================ Contato ============ */
+
+    .form__input-group {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .info__title {
+        display: block !important;
+    }
+
+    .stats__box {
+        padding: 15px 15px 25px 20px !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .home__img {
+        display: none;
+    }
+
+    .home__content {
+        margin-block: auto;
+        text-align: left;
+    }
+
+    .home__title {
+        font-size: var(--h1-font-size);
+    }
+
+    .home__description {
+        text-align: justify;
+    }
+
+    .home__title span {
+        display: inline;
+    }
+
+    .stats {
+        grid-template-columns: 1fr !important;
+    }
+
+}
