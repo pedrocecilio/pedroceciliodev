@@ -7,7 +7,7 @@ const Portifolio = () => {
     return (
         <section className="portifolio section">
             <h2 className="section__title">Meu
-                <span> Portifolio</span>
+                <span> Portifólio</span>
             </h2>
 
             <div className="portifolio__container container grid">

@@ -7,7 +7,8 @@ const PortifolioItem = ({
     details,
     technologies,
     github,
-    demo
+    demo,
+    githubbackend
 }) => {
 
     const [modal, setModal] = useState(false);
@@ -89,6 +90,16 @@ const PortifolioItem = ({
                                     className='button'
                                 >
                                     Github
+                                </a>
+                            )}
+                            {github && (
+                                <a
+                                    href={githubbackend}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className='button'
+                                >
+                                    API
                                 </a>
                             )}
 

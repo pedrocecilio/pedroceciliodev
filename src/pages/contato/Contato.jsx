@@ -8,7 +8,7 @@ import {
     FaDownload
 } from 'react-icons/fa';
 
-import CV from '../../assets/PedroVCecilio.pdf';
+import CV from '../../assets/PedroVCecilioCurriculo.pdf';
 
 
 

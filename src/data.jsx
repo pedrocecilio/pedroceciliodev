@@ -202,7 +202,8 @@ export const portifolio = [
       'SQL'
     ],
 
-    github: 'https://github...',
+    github: 'https://github.com/pedrocecilio/Rifa_Frontend',
+    githubbackend: 'https://github.com/pedrocecilio/Rifa_Api',
     demo: 'https://rifasolidariadagi.vercel.app/',
 
     details: [

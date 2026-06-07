@@ -76,8 +76,8 @@ const Sobre = () => {
                         </h3>
 
                         <h4 className='about__role'>
-                            Analista de Sistemas |
-                            Desenvolvedor Full Stack
+                            Desenvolvedor Full Stack |
+                            Analista de Sistemas
                         </h4>
 
                         <div className='about__slider'>
